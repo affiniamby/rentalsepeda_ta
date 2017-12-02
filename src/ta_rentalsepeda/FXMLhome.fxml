@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="581.0" prefWidth="826.0" style="-fx-background-color: #dc9b8b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta_rentalsepeda.HomeController">
+   <children>
+      <Label fx:id="label" layoutX="252.0" minHeight="16" minWidth="69" prefHeight="47.0" prefWidth="328.0" text="Data Sepeda">
+         <font>
+            <Font name="DFPOP1-W9" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="simpan" layoutX="289.0" layoutY="528.0" onAction="#save" prefHeight="39.0" prefWidth="104.0" style="-fx-background-color: #97919f;" text="LANJUT">
+         <font>
+            <Font name="Futura Bk BT Book" size="12.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="hapus" layoutX="452.0" layoutY="529.0" onAction="#del" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: #97919f;" text="HAPUS">
+         <font>
+            <Font name="Futura Bk BT Book" size="12.0" />
+         </font></JFXButton>
+      <AnchorPane layoutX="20.0" layoutY="76.0" prefHeight="186.0" prefWidth="381.0" style="-fx-background-color: #fff2ec;">
+         <children>
+            <TextField fx:id="a1" layoutX="212.0" layoutY="40.0" />
+            <Label layoutX="211.0" layoutY="9.0" text="Kode Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="72.0" text="Nama Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="b1" layoutX="212.0" layoutY="102.0" />
+            <Label layoutX="215.0" layoutY="127.0" text="Harga Sewa">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="c1" layoutX="212.0" layoutY="149.0" />
+            <ImageView fitHeight="121.0" fitWidth="200.0" layoutY="54.0" onMouseClicked="#gambar1">
+               <image>
+                  <Image url="@../pictures/1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="423.0" layoutY="76.0" prefHeight="186.0" prefWidth="381.0" style="-fx-background-color: #fff2ec;">
+         <children>
+            <Label layoutX="211.0" layoutY="9.0" text="Kode Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="72.0" text="Nama Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="127.0" text="Harga Sewa">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="a2" layoutX="212.0" layoutY="42.0" />
+            <TextField fx:id="b2" layoutX="212.0" layoutY="102.0" />
+            <TextField fx:id="c2" layoutX="212.0" layoutY="149.0" />
+            <ImageView fitHeight="114.0" fitWidth="200.0" layoutY="54.0" onMouseClicked="#gambarr2">
+               <image>
+                  <Image url="@../pictures/2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="20.0" layoutY="317.0" prefHeight="186.0" prefWidth="381.0" style="-fx-background-color: #fff2ec;">
+         <children>
+            <Label layoutX="211.0" layoutY="9.0" text="Kode Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="72.0" text="Nama Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="127.0" text="Harga Sewa">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="114.0" fitWidth="188.0" layoutY="49.0" onMouseClicked="#gambarr3">
+               <image>
+                  <Image url="@../pictures/index.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="a3" layoutX="211.0" layoutY="41.0" />
+            <TextField fx:id="b3" layoutX="208.0" layoutY="93.0" />
+            <TextField fx:id="c3" layoutX="208.0" layoutY="149.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="431.0" layoutY="317.0" prefHeight="186.0" prefWidth="381.0" style="-fx-background-color: #fff2ec;">
+         <children>
+            <TextField fx:id="a4" layoutX="212.0" layoutY="40.0" />
+            <Label layoutX="211.0" layoutY="9.0" text="Kode Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="72.0" text="Nama Sepeda">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="b4" layoutX="212.0" layoutY="102.0" />
+            <Label layoutX="215.0" layoutY="127.0" text="Harga Sewa">
+               <font>
+                  <Font name="Century751 SeBd BT Semi Bold" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="c4" layoutX="212.0" layoutY="149.0" />
+            <ImageView fitHeight="112.0" fitWidth="200.0" layoutY="46.0" onMouseClicked="#gambar4">
+               <image>
+                  <Image url="@../pictures/502198.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
